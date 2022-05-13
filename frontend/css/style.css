@@ -1,0 +1,73 @@
+.pRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.pCol {
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.pContainer {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+.playlist {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    border-radius: 10%;
+}
+
+.playlistInfo {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.pContainer:hover .playlist {
+    opacity: 0.2;
+}
+
+.pContainer:hover .playlistInfo {
+    opacity: 1;
+}
+
+.pText {
+    color: gray;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100%;
+    white-space: nowrap;
+}
+
+.pSubtext {
+    color: gray;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 2px 2px;
+}
+
+.pSelect {
+    background-color: orange;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footerText {
+    color: gray;
+    font-size: 12px;
+}
