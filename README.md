@@ -37,10 +37,10 @@ Selected a playlist:<br>
 Spotify after creating new playlist:<br>
 <img src="Images/Screen Shot 2022-05-13 at 11.08.20 PM.png">
 
-After selecting **Play** to play new playlist on active device:<br>
+After selecting **Play** to play new playlist on active device (my laptop):<br>
 <img src="Images/Screen Shot 2022-05-13 at 11.08.25 PM.png">
 
-Error when no device is active:<br>
+Error when no device is active (Spotify closed on laptop):<br>
 <img src="Images/Screen Shot 2022-05-13 at 11.08.46 PM.png">
 
 ***
