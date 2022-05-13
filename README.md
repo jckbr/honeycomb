@@ -19,29 +19,29 @@ Feel free to submit any issues found or suggestions! I am always looking to impr
 
 <hr>
 
-Spotify before creating new playlist:
-<img src="Images/Screen Shot 2022-05-13 at 11.07.30 PM.png" width="25%">
+Spotify before creating new playlist:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.07.30 PM.png">
 
-Landing page:
-<img src="Images/Screen Shot 2022-05-13 at 11.07.36 PM.png" width="25%">
+Landing page:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.07.36 PM.png">
 
-After authenticating:
-<img src="Images/Screen Shot 2022-05-13 at 11.07.42 PM.png" width="25%">
+After authenticating:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.07.42 PM.png">
 
-Playlist information when hovering:
-<img src="Images/Screen Shot 2022-05-13 at 11.07.49 PM.png" width="25%">
+Playlist information when hovering:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.07.49 PM.png">
 
-Selected a playlist:
-<img src="Images/Screen Shot 2022-05-13 at 11.07.58 PM.png" width="25%">
+Selected a playlist:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.07.58 PM.png">
 
-Spotify after creating new playlist:
-<img src="Images/Screen Shot 2022-05-13 at 11.08.20 PM.png" width="25%">
+Spotify after creating new playlist:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.08.20 PM.png">
 
-After selecting **Play** to play new playlist on active device:
-<img src="Images/Screen Shot 2022-05-13 at 11.08.25 PM.png" width="25%">
+After selecting **Play** to play new playlist on active device:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.08.25 PM.png">
 
-Error when no device is active:
-<img src="Images/Screen Shot 2022-05-13 at 11.08.46 PM.png" width="25%">
+Error when no device is active:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.08.46 PM.png">
 
 ***
 
