@@ -40,6 +40,9 @@ Spotify after creating new playlist:<br>
 After selecting **Play** to play new playlist on active device (my laptop):<br>
 <img src="Images/Screen Shot 2022-05-13 at 11.08.25 PM.png">
 
+Spotify plays new playlist after selecting **Play**:<br>
+<img src="Images/Screen Shot 2022-05-13 at 11.21.30 PM.png">
+
 Error when no device is active (Spotify closed on laptop):<br>
 <img src="Images/Screen Shot 2022-05-13 at 11.08.46 PM.png">
 
