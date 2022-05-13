@@ -17,6 +17,32 @@ I am also planning to put together a demo video to display the project until I r
 
 Feel free to submit any issues found or suggestions! I am always looking to improve projects
 
+<hr>
+
+Spotify before creating new playlist:
+<img src="Images/Screen Shot 2022-05-13 at 11.07.30 PM.png" width="25%">
+
+Landing page:
+<img src="Images/Screen Shot 2022-05-13 at 11.07.36 PM.png" width="25%">
+
+After authenticating:
+<img src="Images/Screen Shot 2022-05-13 at 11.07.42 PM.png" width="25%">
+
+Playlist information when hovering:
+<img src="Images/Screen Shot 2022-05-13 at 11.07.49 PM.png" width="25%">
+
+Selected a playlist:
+<img src="Images/Screen Shot 2022-05-13 at 11.07.58 PM.png" width="25%">
+
+Spotify after creating new playlist:
+<img src="Images/Screen Shot 2022-05-13 at 11.08.20 PM.png" width="25%">
+
+After selecting **Play** to play new playlist on active device:
+<img src="Images/Screen Shot 2022-05-13 at 11.08.25 PM.png" width="25%">
+
+Error when no device is active:
+<img src="Images/Screen Shot 2022-05-13 at 11.08.46 PM.png" width="25%">
+
 ***
 
 Skills used/learned while creating Honeycomb:
