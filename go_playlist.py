@@ -7,6 +7,7 @@ from io import BytesIO
 import PIL
 import requests
 import spotipy
+from spotipy import MemoryCacheHandler
 from spotipy.oauth2 import SpotifyOAuth
 from PIL import Image
 
@@ -27,7 +28,8 @@ class PlaylistManager:
         # Define connection info and utils
         scope = 'user-library-read,playlist-read-private,playlist-modify-private,ugc-image-upload,user-read-playback-state,user-modify-playback-state'
         self.offset = 0
-        self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+        # Use FlaskSessionCacheHandler to cache token
+        self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, cache_handler=MemoryCacheHandler()))
         self.user_playlists = self.sp.current_user_playlists()['items']
         # remove all playlists with less than self.numToAdd songs
         self.user_playlists = [i for i in self.user_playlists if i['tracks']['total'] >= self.numToAdd]

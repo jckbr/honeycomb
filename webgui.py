@@ -18,8 +18,6 @@ def index():
 @app.route('/connect')
 def web_connect():
     go_obj.connect()
-    # request load playlists for client
-
     return jsonify(result="1")
 
 
