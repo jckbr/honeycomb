@@ -3,8 +3,8 @@ from datetime import date
 import base64
 import json
 import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
-import spotipy.util as util
+from spotipy.oauth2 import SpotifyOAuth
+
 
 class PlaylistManager:
 

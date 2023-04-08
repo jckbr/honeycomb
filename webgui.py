@@ -9,6 +9,7 @@ app = Flask(__name__)
 CORS(app)
 go_obj = PlaylistManager()
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -17,8 +18,6 @@ def index():
 @app.route('/connect')
 def web_connect():
     print("Connected")
-    # launch spotify oauth
-
     go_obj.connect()
     return jsonify(result="1")
 
@@ -49,7 +48,6 @@ def web_play():
 
 
 if __name__ == '__main__':
-
     # set environment variables
     # load json
     with open('spotify_keys.json') as f:
