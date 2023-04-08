@@ -17,34 +17,30 @@ def index():
 
 @app.route('/connect')
 def web_connect():
-    print("Connected")
     go_obj.connect()
+    # request load playlists for client
+
     return jsonify(result="1")
 
 
 @app.route('/loadPlaylists')
 def web_load_playlists():
-    print("Got playlists")
-    data = go_obj.load_playlists()
-    return jsonify(result=data)
+    playlist_data = go_obj.load_playlists()
+    return jsonify(result=playlist_data)
 
 
 @app.route('/select')
 def web_select():
-    # for future reference Jack, id is a reserved word in python (i.e. don't use it)
     playlist_id = request.args.get('plID', 0)
     playlist_id = playlist_id[1:]
-    print("Selected playlist:", playlist_id)
     go_obj.get_playlist(playlist_id)
-    print("Created Honeycomb playlist")
     return jsonify(result="1")
 
 
 @app.route('/playNew')
 def web_play():
-    print("Playing Honeycomb playlist")
-    data = go_obj.play_new()
-    return jsonify(result=data)
+    playlist_data = go_obj.play_new()
+    return jsonify(result=playlist_data)
 
 
 if __name__ == '__main__':
