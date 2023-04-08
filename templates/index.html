@@ -21,6 +21,14 @@
             });
         }
     </script>
+    <script>
+        function conf_change_back() {
+            $("#conf").html('<div class="alert alert-success" role="alert">Successfully created Honeycomb playlist' +
+                            '        <button class="btn close" id="playNew">Play</button>' +
+                            '</div>');
+            $("#conf").attr('hidden', 'true');
+        }
+    </script>
     <script type=text/javascript>
         $(function () {
             $('#connect').click(function () {
@@ -52,6 +60,7 @@
                     type: 'GET',
                     success: function (data) {
                         $("#conf").html(data.result);
+                        setTimeout(conf_change_back, 5000);
                     }
                 });
             });
@@ -66,6 +75,7 @@
                 success: function (data) {
                     $('#result').html(data);
                     $('#conf').removeAttr('hidden');
+                    setTimeout(conf_change_back, 7500);
                 }
             });
         }
