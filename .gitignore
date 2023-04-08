@@ -1,2 +1,10 @@
-
+# Mac OS
 .DS_Store
+
+# Python
+venv
+.idea
+__pycache__
+
+# Keys
+spotify_keys.json
